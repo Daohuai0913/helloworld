@@ -13,7 +13,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-
           - arch: x86_64
             target: x86-64
 
@@ -101,4 +100,3 @@ jobs:
           path: |
             *.ipk
             PKG-INFO
-
